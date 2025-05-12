@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//contains a method that creates an array and fills it with the characters from the phrase inputted by the user
+
 public class arrayModifier {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -23,7 +25,7 @@ public class arrayModifier {
 
     }
 
-    //method that creates an array and fills it with the characters from the phrase inputted by the user
+    
 
     public static char[][] arrayCreator(String str) {
         
@@ -33,7 +35,7 @@ public class arrayModifier {
 
             //creates empty rows seperated by a line break, then runs inner loop, then incr. index
         for (int i = 0; i < newArray.length; i++) {
-            System.out.println(" ");
+            
 
             //creates columns and fills them with the str
             for (int j = 0; j < newArray.length; j++) {
