@@ -12,7 +12,6 @@ public class arrayModifier {
         char[][] usrArray = arrayCreator(userInp);
 
         for (int i = 0; i < usrArray.length; i++) {
-            System.out.println(" ");
             
             for (int j = 0; j < usrArray[i].length; j++) {
 
@@ -35,7 +34,7 @@ public class arrayModifier {
 
             //creates empty rows seperated by a line break, then runs inner loop, then incr. index
         for (int i = 0; i < newArray.length; i++) {
-            
+            System.out.println(" ");
 
             //creates columns and fills them with the str
             for (int j = 0; j < newArray.length; j++) {
